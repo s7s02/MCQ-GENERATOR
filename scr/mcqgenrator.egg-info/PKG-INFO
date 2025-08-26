@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: mcqgenrator
+Version: 0.1.0
+Summary: A multiple choice question generator using OpenAI GPT
+Home-page: https://github.com/yourusername/mcqgenrator
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# MCQ Generator
+
+A multiple choice question generator using OpenAI GPT models. This package allows you to generate MCQs from PDF or text files.
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+```python
+from mcqgenrator import MCQ
+
+# Use the MCQ generator
+# Add your usage example here
+```
+
+## Requirements
+
+- Python 3.7+
+- OpenAI API key

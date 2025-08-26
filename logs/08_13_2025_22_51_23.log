@@ -1,0 +1,2 @@
+[2025-08-13 22:51:25,699] 27 dotenv.main - WARNING - python-dotenv could not parse statement starting at line 3
+[2025-08-13 22:51:45,100] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
